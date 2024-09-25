@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    color: #E0E0E0; 
+    line-height: 1.6;
+    background-color: #0B1D33; 
+}
+
+header {
+    background-color: #0B1D33; 
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .logo {
+    color: #eed961; 
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #C7E9F1; 
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #eed961; 
+    text-decoration: underline; 
+}
+
+#hero {
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E0E0E0;
+    text-align: center;
+    background-image: url('IMG/fundo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    opacity: 0.9; 
+}
+
+#hero .intro h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 1rem;
+    color: #FFFFE0; 
+}
+
+.social-links {
+    margin-top: 1rem; 
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #C7E9F1; 
+    font-size: 1.8rem; 
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #eed961; 
+}
+
+#sobre, #skills, #contato {
+    padding: 2rem 0; 
+    width: 90%;
+    margin: 0 auto;
+    color: #E0E0E0; 
+}
+
+h2 {
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #C7E9F1; 
+}
+
+h3 {
+    font-size: 1.3rem; 
+    margin-bottom: 0.5rem; 
+    color: #C7E9F1; 
+}
+
+#sobre p, #contato p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #E0E0E0;
+}
+
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hard-skills, .soft-skills {
+    flex-basis: 45%;
+    background-color: #121212; 
+    padding: 1rem; 
+    border-radius: 8px;
+    color: #E0E0E0;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-list li {
+    list-style: none;
+    background-color: #0B1D33; 
+    color: #C7E9F1; 
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0B1D33;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer-social {
+    margin-top: 1rem;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: #C7E9F1; 
+    font-size: 1.5rem; 
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #eed961; 
+}
+
+#contact a:hover {
+    color: #eed961; 
+    text-decoration: underline; 
+}
